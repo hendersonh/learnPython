@@ -1,4 +1,11 @@
-#this is how it looks
-"""This is just at tes"""
+"""Sum all numbers in a List"""
 
-print "ths is just a test"
+def sum_numbers(numbers):
+    count = 0
+    for number in numbers:
+        count += number
+    return number
+
+
+my_list = [1, 2, 3, 4]
+print(sum(my_list))
